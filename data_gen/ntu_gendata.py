@@ -165,10 +165,10 @@ def gendata(data_path, out_path, ignored_sample_path=None, benchmark='xview', pa
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='NTU-RGB-D Data Converter.')
-    parser.add_argument('--data_path', default='../data/nturgbd_raw/nturgb+d_skeletons/')
+    parser.add_argument('--data_path', default='/root/autodl-tmp/nturgbd_raw/nturgb+d_skeletons/')
     parser.add_argument('--ignored_sample_path',
-                        default='../data/nturgbd_raw/samples_with_missing_skeletons.txt')
-    parser.add_argument('--out_folder', default='../data/NTU-RGB-D-60-AGCN/')
+                        default='/root/autodl-tmp/nturgbd_raw/samples_with_missing_skeletons.txt')
+    parser.add_argument('--out_folder', default='/root/autodl-tmp/NTU-RGB-D-60-AGCN/')
     benchmark = ['xsub', 'xview']
 
     #parser.add_argument('--data_path', default='../data/nturgbd_raw_120/nturgb+d_skeletons/')

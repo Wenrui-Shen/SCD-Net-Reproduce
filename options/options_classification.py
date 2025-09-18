@@ -1,4 +1,4 @@
-data_path = "./data"
+data_path = "/root/autodl-tmp/"
 
 class  opts_ntu_60_cross_view():
 
